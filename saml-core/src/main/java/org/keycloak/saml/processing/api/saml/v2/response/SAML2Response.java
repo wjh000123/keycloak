@@ -453,7 +453,7 @@ public class SAML2Response {
             ResponseType response = (ResponseType) responseType;
             writer.write(response);
         } else {
-            writer.write(responseType, new QName(PROTOCOL_NSURI.get(), JBossSAMLConstants.LOGOUT_RESPONSE.get(), "samlp"));
+            writer.write(responseType, new QName(PROTOCOL_NSURI.get(), JBossSAMLConstants.LOGOUT_RESPONSE.get(), "saml2p"));
         }
 
         return DocumentUtil.getDocument(new ByteArrayInputStream(bos.toByteArray()));
