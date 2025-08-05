@@ -62,7 +62,7 @@ public class BaseWriter {
 
     protected static final PicketLinkLogger logger = PicketLinkLoggerFactory.getLogger();
 
-    protected static String PROTOCOL_PREFIX = "samlp";
+    protected static String PROTOCOL_PREFIX = "saml2p";
 
     protected static String ASSERTION_PREFIX = "saml";
 
