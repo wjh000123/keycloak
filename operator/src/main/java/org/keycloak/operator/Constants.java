@@ -53,7 +53,7 @@ public final class Constants {
     );
 
 
-    public static final Integer KEYCLOAK_HTTP_PORT = 8080;
+    public static final Integer KEYCLOAK_HTTP_PORT = 18088;
     public static final Integer KEYCLOAK_HTTPS_PORT = 8443;
     public static final String KEYCLOAK_HTTP_PORT_NAME = "http";
     public static final String KEYCLOAK_HTTPS_PORT_NAME = "https";
